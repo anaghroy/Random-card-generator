@@ -20,10 +20,11 @@ main {
   align-items: center;
 }
 main .container {
-  background-color: red;
+  background-color: white;
   width: 25%;
-  padding: 20px;
+  padding: 15px;
   border-radius: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 main .container img {
   width: 100%;
@@ -32,7 +33,6 @@ main .container img {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  padding: 5px;
   position: relative;
 }
 main .container .icon {
@@ -45,6 +45,64 @@ main .container .icon {
   height: 5%;
   border-radius: 50%;
   padding: 0.5rem;
-  margin-top: -29%;
-  margin-left: 18%;
+  margin-top: -30%;
+  margin-left: 20%;
+}
+main .container .content {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 5px;
+}
+main .container .content h2 {
+  font-size: 1.5rem;
+  color: #000;
+}
+main .container .content i {
+  color: rgb(7, 7, 244);
+  font-size: 1.5rem;
+}
+main .container p {
+  padding: 10px 5px;
+}
+main .container .session {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 10px;
+}
+main .container .session .rating {
+  font-size: 1rem;
+}
+main .container .session .rating i {
+  color: rgb(255, 170, 0);
+}
+main .container .session .rating h6 {
+  color: gray;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+main .container .session .earned {
+  font-size: 1rem;
+}
+main .container .session .earned i {
+  color: rgb(255, 170, 0);
+}
+main .container .session .earned h6 {
+  color: gray;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+main .container .session .rate {
+  font-size: 1rem;
+}
+main .container .session .rate i {
+  color: rgb(255, 170, 0);
+}
+main .container .session .rate h6 {
+  color: gray;
+  margin-top: 5px;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */

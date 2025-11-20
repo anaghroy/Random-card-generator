@@ -19,18 +19,18 @@ main {
   justify-content: center;
   align-items: center;
   .container {
-    background-color: red;
+    background-color: white;
     width: 25%;
     // height: 50%;
-    padding: 20px;
-
+    padding: 15px;
     border-radius: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     img {
       width: 100%;
       border-radius: 1.5rem;
       object-fit: cover;
       object-position: center;
-      padding: 5px;
+      //   padding: 5px;
       position: relative;
     }
     .icon {
@@ -42,8 +42,70 @@ main {
       height: 5%;
       border-radius: 50%;
       padding: 0.5rem;
-      margin-top: -29%;
-      margin-left: 18%;
+      margin-top: -30%;
+      margin-left: 20%;
+    }
+    .content {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      // justify-content: space-between;
+      padding: 5px;
+      h2 {
+        font-size: 1.5rem;
+        color: #000;
+      }
+      i {
+        color: rgb(7, 7, 244);
+        font-size: 1.5rem;
+      }
+    }
+    p {
+      padding: 10px 5px;
+    }
+    .session {
+      width: 100%;
+      height: fit-content;
+      // background-color: green;
+      display: flex;
+      justify-content: space-around;
+      padding: 5px 10px;
+
+      .rating {
+        // border-right: 0.1em solid gray;
+        font-size: 1rem;
+        i {
+          color: rgb(255, 170, 0);
+        }
+        h6 {
+          color: gray;
+          margin-top: 5px;
+          font-size: 1rem;
+        }
+      }
+      .earned {
+        font-size: 1rem;
+        i {
+          color: rgb(255, 170, 0);
+        }
+        h6 {
+          color: gray;
+          margin-top: 5px;
+          font-size: 1rem;
+        }
+      }
+      .rate {
+        // border-right: 0.1em solid gray;
+        font-size: 1rem;
+        i {
+          color: rgb(255, 170, 0);
+        }
+        h6 {
+          color: gray;
+          margin-top: 5px;
+          font-size: 1rem;
+        }
+      }
     }
   }
 }
